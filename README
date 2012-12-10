@@ -1,0 +1,33 @@
+VikiSub - JSON to SRT for subtitles from Viki
+==================
+
+BACKGROUND
+==================
+So this is something that was made over the course of the
+weekend, and at the start of it I knew little to no Ruby at all.
+
+So I was messing around with the Viki.com, and got curious
+with how they do their subtitles. After a bit of poking around
+in the source code I found where the subtitle files are stored
+for each video. They're stored as JSON files with the start/end
+times as milliseconds, and well to skip a bunch, this little ruby script/program was made. Many thanks to my friend torque with help on this and Ruby in general.
+
+It's pretty basic at the moment, I plan to do quite a bit with it though. Please also don't go claiming any converted subtitles as entirely your own, as it's thanks to whoever made the translations.
+
+
+USAGE
+==================
+VikiSub.rb file.json file.srt [file2.json file2.srt and so on]
+
+
+REQUIREMENTS
+==================
+Ruby 1.9.3 (Least that's what I've tested it in)
+JSON gem
+
+
+VERSION HISTORY
+==================
+0.1
+Can take in local JSON files
+Makes a standard SRT file
