@@ -1,3 +1,8 @@
+BIG NOTE: This is deprecated solely on the fact of how old it is, I never really got around to making sure it worked
+          as well as making it take in URLs. Maybe if/when I feel bored enough I'll look into doing more with this
+          assuming there isn't a standard way of downloading subtitles from Viki by then (there might be right now as far as I know).
+
+
 VikiSub - JSON to SRT for subtitles from Viki
 ==================
 
